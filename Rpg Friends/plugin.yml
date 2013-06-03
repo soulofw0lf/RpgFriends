@@ -1,0 +1,7 @@
+name: RpgFriends
+main: com.vartala.soulofw0lf.rpgfriends.RpgFriends
+version: 1.0
+commands:
+    friend:
+        description: Base friend command
+        usage: /<friend> [add,remove,list,accept,deny,ignore,unignore]

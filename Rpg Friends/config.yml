@@ -1,0 +1,15 @@
+#set wether or not chat ignore features work. true turns ignore features on, false turns them off!
+Chat: true
+#ammount of time a player has to accept a friend invite
+Timer: 60
+#commands to be exectued in friends list @p = player clicking @t = head clicked on
+Commands:
+  Left Click: 
+    Command: friend remove @t
+    Description: remove this player from your friends list.
+  Right Click: 
+    Command: party invite @t
+    Description: Invite this player to a party
+  Shift Click: 
+    Command: tell @t @p says hello! 
+    Description: Say hello!
